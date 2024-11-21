@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #fafad2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4a460;
+    z-index: 1000;
+    padding: 70px;
+    box-sizing: border-box;
+}
+h2 {
+    color: #000000;
+    font-size: 30px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4a460;
+    z-index: 1000;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.content {
+    margin-top: 80px; /* Add margin to push content below the fixed heading */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px); /* Adjust height to fit the viewport minus the heading */
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e0ffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color:#dda0dd ;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #008080;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #008080;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background-color: #008b8b;
+    border-color: #008b8b;
+}
+
+.button:active {
+    background-color: #5f9ea0;
+    border-color: #5f9ea0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>FULL STACK WEB DEVELOPMENT LAB EXPERIMENTS</h1>
+        <h3>KOWSHIKA M V (810022205100) </h3>
+        <ul>
+            <button class="button" onclick="portfolio()"><li><a href="#" alt="portfolio">1...Portfolio</a></li></button></ul><br>
+            <button class="button" onclick="todo()"><li><a href="#" alt="todo">2...To-do List</a></li></button></ul><br>
+            <button class="button" onclick="microblogging()"><li><a href="#" alt="microblogging">3...MicroBlogging</a></li></button></ul><br>
+            <button class="button" onclick="fooddelivery()"><li><a href="#" alt="fooddelivery">4...Food Delivery Website</a></li></button></ul><br>
+            <button class="button" onclick="classifiedbuyandsell()"><li><a href="#" alt="classifiedbuyandsell">5...Classified Buy and Sell</a></li></button></ul><br>
+            <button class="button" onclick="leavemanagement()"><li><a href="#" alt="leavemanagement">6...Leave Management System </a></li></button></ul>
+            
+        
+        </ul>
+    </div>
+<script>
+    function portfolio(){
+        location.replace("indexf.html");
+    }
+    function todo(){
+        location.replace("indexs.html");
+    }
+    function microblogging(){
+        location.replace("indexm.html");
+    }
+    function fooddelivery(){
+        location.replace("index4.html");
+    }
+     function classifiedbuyandsell(){
+        location.replace("index5.html");
+    }
+     function leavemanagement(){
+        location.replace("index6.html");
+    }
+</script>
+</body>
+</html>
+
+
+<!--<head>
+<title>My Page</title>
+<style>
+h1{
+ text-align:center;
+ color:red;
+ font-size:60px;
+}
+</style>
+</head>
+<body>
+<h1>welcome to my page</h1></br>  
+<ul>
+<li><a href="https://www.google.com" alt="googlenav">Google</a></li>
+</br>
+<li><a href="indexf.html" alt="portfolio">Portfolio</a></li>
+</br>
+<li><a href="index.html" alt="todo">To-do List</a></li>
+</ul>
+</body>-->
